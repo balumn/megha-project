@@ -135,10 +135,10 @@ class RideList extends Component {
                         <td>{ride[2]["c"][0]}</td>
                         <td>{ride[3]}</td>
                         <td>{ride[4]}</td>
-                        {/* <td>
+                        <td>
                           {this.rideshareButton(this.state.passengers[i].indexOf(web3.eth.accounts[0]) > -1, ride[1], i)}
                           <Link to={`/details/${i}`}>Details</Link>
-                        </td> */}
+                        </td>
                       </tr>
                     // </table> 
                     )
